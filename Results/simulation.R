@@ -52,7 +52,7 @@ load( paste0(indir,"z.RData") )
 m <- 10^4
 
 # probability of treatment
-p <- .1
+p <- 0.1
 
 # values of potential outcomes
 O.c<- c(10,7,5,1)
@@ -61,7 +61,7 @@ O.c<- c(10,7,5,1)
 boot_n <- 10^3
 
 # parameters for algorithm 1 (estimate alpha and beta)
-alpha0 <- .001
+alpha0 <- 0.001
 Nb <- 500 
 tiny <- 0.0001
 
