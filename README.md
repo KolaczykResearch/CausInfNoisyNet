@@ -7,10 +7,10 @@ This repository contains code supporting the text "Causal Inference under Networ
 
 * Create true networks   : createTrueNet.R
 * Create treatments : createTreatment.R
+* Create potential outcomes : createOutcome.R
 * Create noisy networks   : getNoisyNet.R
 * Estimate netork noise (Algorithm 1)  : getNetNoise.R 
-* Estimate causal effects   : getEst.R
-* Estimate variances and confidence intervals of estimators of causal effects   : getVarEst.R
+* Estimate causal effects, and variances of estimators of causal effects: getEst.R
 
 
 ## Results
